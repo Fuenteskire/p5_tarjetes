@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jimi rules</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            background: linear-gradient(65deg, purple, orange, red);
+        }
+        .contenidor{
+            display: flex;
+            border: 2px solid white;
+            padding: 2em;
+            justify-content: center;
+        }
+        .grup{
+            border-radius: 20px;
+            width: 28em;
+            margin: 1em;
+            background: rgba(240, 240, 240, 0.6);
+        }
+        .cont_img{
+            border-radius: 20px;
+            height: 300px;
+            background: purple;
+        }
+        .cont_img img{
+            filter: grayscale(20%);
+            mix-blend-mode: lighten;
+            border-radius: 20px;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+        header{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            color: green;
+            margin: 0.5em, 1em;
+            padding: 0 0 0 2em 0;
+            border-bottom: 1px solid green;
+        }
+        h3{
+            font-weight:600;
+            font-style: normal;
+        }
+        h4{
+            font-style: italic;
+            font-weight: 500;
+        }
+        .cont_txt{
+            margin: 1em 1em 0.5em 1em;
+            color: green;
+            text-align: justify;
+            hyphens: auto;
+            font-size: 0.9em;
+            line-height: 1.2;
+            
+        }
+        .peu_foto{
+                background: green;
+            border-radius: 
+                color: white;
+                font-style: italic;
+                font-size: 0.9em;
+                margin: 1em 1em 0.5em 1em;
+                
+            }
+        @media (max-width:600px){            
+            .body{
+                font-size: 14px;
+            }
+            .contenidor{
+                flex-direction: column;
+            }
+            .grup{
+                width: 30em;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="contenidor">
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/jimi.jpg" alt="jimi">
+            </div>
+            <header>
+                <h3>Jimi Hendrix</h3>
+                <h4>Fecha</h4>
+            </header>
+            <div class="cont_txt">
+                <p>Experience Hendrix LLC y Sony Music Entertainment Legacy editarán en 2010 el monumental proyecto de catálogo de Jimi Hendrix que comenzará el 8 de marzo con la publicación de Valleys of Neptune, un nuevo álbum con 12 grabaciones de estudio. Este disco de colección contiene más de 60 minutos de música de Jimi Hendrix nunca publicada en un disco del genial artista, el “guitarrista más grande de todos los tiempos” según la revista Rolling Stone. Centrado alrededor de grabaciones realizadas en 1969 en un periodo de cuatro meses fundamental y turbulento, Valleys of Neptune presenta las sesiones finales realizadas en estudio por la Jimi Hendrix Experience original, con las primeras apariciones del bajista Billy Cox, un antiguo compañero del ejército que Hendrix había reclutado para su nueva banda.</p>
+                <p>Valleys of Neptune ofrece la posibilidad de acercarse y conocer de una manera esencial, necesaria y única la música desconocida de Jimi Hendrix entre la aparición del álbum Electric Ladyland en octubre de 1998 y la apertura de los Electric Lady Studios en Greenwich Village en 1970, donde el artista comenzaría su último proyecto: el ambicioso doble álbum First Rays of the New Rising Sun.</p>
+            </div>
+            <div class="peu_foto">
+                <p>Obra </p>
+            </div>
+        </div>
+        <div class="grup">
+            <div class="cont_img">
+                <img src="img/sombra.JPG" alt="sombra">
+            </div>
+            <header>
+                <h3>Sombra</h3>
+                <h4>Fecha</h4>
+            </header>
+            <div class="cont_txt">
+                 <p>Experience Hendrix LLC y Sony Music Entertainment Legacy editarán en 2010 el monumental proyecto de catálogo de Jimi Hendrix que comenzará el 8 de marzo con la publicación de Valleys of Neptune, un nuevo álbum con 12 grabaciones de estudio. Este disco de colección contiene más de 60 minutos de música de Jimi Hendrix nunca publicada en un disco del genial artista, el “guitarrista más grande de todos los tiempos” según la revista Rolling Stone. Centrado alrededor de grabaciones realizadas en 1969 en un periodo de cuatro meses fundamental y turbulento, Valleys of Neptune presenta las sesiones finales realizadas en estudio por la Jimi Hendrix Experience original, con las primeras apariciones del bajista Billy Cox, un antiguo compañero del ejército que Hendrix había reclutado para su nueva banda.</p>
+                <p>Valleys of Neptune ofrece la posibilidad de acercarse y conocer de una manera esencial, necesaria y única la música desconocida de Jimi Hendrix entre la aparición del álbum Electric Ladyland en octubre de 1998 y la apertura de los Electric Lady Studios en Greenwich Village en 1970, donde el artista comenzaría su último proyecto: el ambicioso doble álbum First Rays of the New Rising Sun.</p>
+            </div>
+            <div class="peu_foto">
+                <p>Obra</p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
